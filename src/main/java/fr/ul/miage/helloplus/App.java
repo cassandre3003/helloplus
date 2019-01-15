@@ -57,7 +57,7 @@ public class App
     	CommandLineParser parser = new DefaultParser();
     	try {
     		CommandLine line = parser.parse( options, args );
-    		if (line.hasOption('i')) {
+    		if (line.hasOption("i")) {
     			filename = line.getOptionValue("i");
     		}
     	}
